@@ -728,10 +728,10 @@ body {
     padding: 0 32px;
 }
 
-.privacy-content {
+/* .privacy-content {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .privasy-image {
     padding: 0;
