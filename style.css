@@ -591,7 +591,14 @@ body {
 @media screen and (max-width : 560px) {
 
 .header {
-    padding-top: 24px;
+    padding: 24px 0 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.spotlight-logo {
+    padding-left: 20px;
 }
 
 .spotlight-section {
@@ -615,9 +622,29 @@ body {
 
 .spotlight-content {
     width: 100%;
-    max-width: 62%;
+    max-width: 320px;
     margin: 0 auto;
     margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.spotlight-title {
+    margin-bottom: 10px;
+}
+
+.spotlight-text {
+    margin: 0 0 32px;
+}
+
+.spotlight-link {
+    margin: 0 0 12px;
+    width: 100%;
+}
+
+.raiting-stars-content {
+    margin: 0;
 }
 
 
