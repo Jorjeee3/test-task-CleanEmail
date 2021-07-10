@@ -475,11 +475,14 @@ body {
     margin-bottom: 72px;
 }
 
-.privacy-title {
-    box-shadow: inset 0 -10px 0 0 #D9E9FF;
-    display: inline-block;
-    font-size: 36px;
+.privacy-title-wrapper {
     margin-bottom: 48px;
+}
+
+.privacy-title {
+    box-shadow: inset 0 -15px 0 0 #D9E9FF;
+    display: inline;
+    font-size: 36px;
 }
 
 .privacy-content {
@@ -663,6 +666,7 @@ body {
 
 .clean-list {
     margin-top: 90px;
+    padding: 15px;
 }
 
 .clean-item {
@@ -670,12 +674,13 @@ body {
     flex-direction: column;
     height: 347px;
     text-align: center;
-    padding-top: 32px;
+    padding: 32px 0 65px;
 }
 
 .accounts-value {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .clean-icon-wrapper {
@@ -683,7 +688,9 @@ body {
 }
 
 .clean-accounts-value {
-    margin: 0;
+    margin: 0 0 24px;
+    width: 100%;
+    max-width: 200px;
 }
 
 .clean-icon {
@@ -694,10 +701,6 @@ body {
     position: absolute;
     bottom: 20px;
     right: 0;
-}
-
-.clean-accounts-value {
-    margin-bottom: 24px;
 }
 
 .description-popup {
@@ -723,8 +726,7 @@ body {
 }
 
 .clean-upgrade-link-button {
-    padding: 16px 140px;
-    margin-bottom: 65px;
+    padding: 16px 120px;
 }
 
 .accounts-infinit {
@@ -746,24 +748,32 @@ body {
 }
 
 .clean-infinit-link-button {
-    margin-top: -200px;
+    padding: 16px 120px;
 }
 
 /* ///////////////--description-list--//////////////// */
 
 .description-list {
     width: 100%;
-    max-width: 450px;
+    max-width: 410px;
     margin: 0 auto;
     height: auto;
-    padding: 0 32px;
+    padding: 0 0 16px 60px;
 }
 
 .description-item {
     width: 100%;
     display: inline-block;
     margin-bottom: 32px;
+    position: relative;
 }
+
+.description-icon {
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+
 /* ///////////////--PRIVASY--//////////////// */
 
 .privacy-section {
