@@ -722,6 +722,21 @@ body {
     margin-top: -200px;
 }
 
+/* ///////////////--description-list--//////////////// */
+
+.description-list {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0 32px;
+}
+
+.description-item {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 32px;
+}
 /* ///////////////--PRIVASY--//////////////// */
 
 .privacy-section {
