@@ -405,7 +405,6 @@ body {
 }
 
 .clean-infinit-link-button:hover {
-    padding: 16px 36px;
     background-color: #44D695;
     color: #ffffff;
     transition: ease-in 0.4s;
@@ -461,8 +460,20 @@ body {
     height: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.sponsor-item {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-item-image {
+    width: 100%;
 }
 
 /* ///////////////--PRIVASY--//////////////// */
