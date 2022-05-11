@@ -8,6 +8,9 @@ const servicesButtonFirst = document.querySelector('.services-button-first')
 const servicesButtonSecond = document.querySelector('.services-button-second')
 const servicesButtonThird = document.querySelector('.services-button-third')
 
+thirdCleanList.style.display = 'none'
+secondCleanList.style.display = 'none'
+
 servicesButtonFirst.addEventListener('click', () => {
     thirdCleanList.style.display = 'none'
     secondCleanList.style.display = 'none'
@@ -26,45 +29,8 @@ servicesButtonThird.addEventListener('click', () => {
     thirdCleanList.style.display = 'flex'
 })
 
-
-
-// function toggleActiveClass() {
-//     for (let i = 0; i <= servicesButtons.length; i++) {
-//         servicesButtons[i].classList.remove('active')
-//     }
-//     servicesButtons.forEach(item  => {
-//         item.addEventListener('click', () => {
-//             item.classList.add('active')
-//         })
-//     })
-// }
-
- 
-//  servicesButtons[i].addEventListener('click', (item) => {
-//     item.classList.add('active')
-//     console.log(i);
-// })
-
 servicesButtons.forEach(item  => {
     item.addEventListener('click', () => toggleActiveClass())
 })
 
-
-// item.classList.remove('active')
-// item.classList.add('active')
-
-// for (let i = 0 ; cleanItems.length <= 2; i++ ) {
-//     if (index === cleanItems[i]) {
-//         cleanItems[i].classList.add('clean-item-active')
-//     } else {
-//         return undefined
-//     }
-// }
-
-
-// $(document).ready(function() {
-//     $(".services-button").on('click', function() {
-//         $(".active").toggle(1000)
-//     });
-// })
 

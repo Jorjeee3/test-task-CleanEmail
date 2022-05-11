@@ -142,8 +142,7 @@ body {
 
 .comments-item {
     display: inline-block;
-    max-width: 376px;
-    width: 100%;
+    width: 376px;
     height: 236px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
     margin-right: 32px;
@@ -272,6 +271,14 @@ body {
     margin: 0 auto;
     height: auto;
     margin-bottom: 48px;
+}
+
+.clean-list-2 {
+    display: none;
+}
+
+.clean-list-3 {
+    display: none;
 }
 
 .clean-item {
@@ -525,6 +532,7 @@ body {
 
 .privacy-item-title {
     font-size: 20px;
+    text-align: left;
 }
 
 .privacy-item-title::before {
@@ -815,7 +823,7 @@ body {
 }
 
 .privacy-list {
-    width: 70%;
+    width: 90%;
     padding-left: 40px;
 }
 
